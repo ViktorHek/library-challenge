@@ -1,11 +1,7 @@
 ---
-- :item1:
-    :name: &name1 "en bok"
-    :author: "en person"
-  :avilable: true
-  :return_date:
-- :item2:
-    :name: &name2 "en annan bok"
-    :author: "en annan person"
-  :avilable: true
-  :return_date:
+:item:
+  :name: "en bok"
+  :author: "en person"
+:item:
+  :name: "en annan bok"
+  :author: "en annan person"
