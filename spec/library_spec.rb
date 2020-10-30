@@ -1,8 +1,13 @@
+require './lib/library.yaml'
 
 describe library do 
     let(:account) { instance_double('Account', pin_code: '1234', exp_date: '04/22', account_status: :active) }
 
 # create instance_double
+
+it 'if book is available, return true' do 
+expect(item.available).to be_true
+end
 
 # if book is available, return true
 

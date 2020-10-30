@@ -3,5 +3,9 @@
     :name: &name1 "en bok"
     :author: "en person"
   :avilable: true
-  :return_date: 
+  :return_date:
 - :item2:
+    :name: &name2 "en annan bok"
+    :author: "en annan person"
+  :avilable: true
+  :return_date:
