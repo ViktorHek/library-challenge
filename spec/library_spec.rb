@@ -1,5 +1,6 @@
-require './lib/library.yaml'
-require './lib/book_class.rb'
+#require 'yaml'
+#require './lib/library.yaml'
+require './lib/visitor.rb'
 
 describe Book do 
     let(:book) { instance_double('Book', title: 'En Bok', author: 'En Person', available: :true, return_date: '28/11' ) }
@@ -15,3 +16,4 @@ describe Book do
         expected_output = { status: true, message: 'book available, return by ', date: Date.today } # ändra datumen till en bättre funktion
         expect(subject.check_out_book(true, '31/11')).to eq expected_output
     end
+end

@@ -15,7 +15,7 @@ class Visitors
         library[0][return_date] = Date.today>>1
         File.open('./lib/library.yaml', 'w') { |file| file.write library.to_yaml }
     end
-
+# kanske behöver ändra [] till {}, eller ändra hach till array i YAML.
     def return_book 
         library = YAML.load_file('./lib/library.yaml')
         library[0][:available] = true
