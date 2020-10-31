@@ -1,15 +1,15 @@
---- !rub
-- :book1:
+---
+- :item:
     :title: Trollkarlens hatt
     :author: Tove Jansson
   :available: true
   :return_date: 
-- :book2:
+- :item:
     :title: Farlig midsommar
     :author: Tove Jansson
   :available: false
   :return_date: '2020-11-31'
-- :book3: 
+- :item: 
     :title: Trollvinter
     :author: Tove Jansson
   :available: true
